@@ -1,0 +1,126 @@
+UNIT III RELATIONAL DATABASE DESIGN AND NORMALIZATION 10
+
+**Unit III: Relational Database Design and Normalization**
+
+**Instructions:** Choose the best answer for each multiple-choice question.
+
+1.  Which of the following is NOT a goal of database normalization?
+    a) Reduce data redundancy
+    b) Improve data integrity
+    c) Increase data inconsistency
+    d) Simplify data modification
+
+    **Correct Answer: c) Increase data inconsistency**
+
+2.  An Entity-Relationship (ER) diagram primarily models:
+    a) Data types
+    b) Database queries
+    c) Entities and their relationships
+    d) Functional dependencies
+
+    **Correct Answer: c) Entities and their relationships**
+
+3.  What is an update anomaly?
+    a)  A query that returns unexpected results.
+    b)  An error in the database schema.
+    c)  An inconsistency that arises when updating data in a poorly designed database.
+    d)  A violation of referential integrity.
+
+    **Correct Answer: c) An inconsistency that arises when updating data in a poorly designed database.**
+
+4.  A functional dependency X → Y means:
+    a)  Y determines X
+    b)  X determines Y
+    c)  X and Y are independent
+    d)  X and Y are always equal
+
+    **Correct Answer: b) X determines Y**
+
+5.  Which normal form addresses transitive dependencies?
+    a)  1NF
+    b)  2NF
+    c)  3NF
+    d)  BCNF
+
+    **Correct Answer: c) 3NF**
+
+6.  A minimal cover of a set of functional dependencies is:
+    a)  A set of all possible functional dependencies.
+    b)  A reduced set of functional dependencies that implies the original set.
+    c)  A set of functional dependencies that are in 3NF.
+    d)  A set of functional dependencies that are in BCNF.
+
+    **Correct Answer: b) A reduced set of functional dependencies that implies the original set.**
+
+7.  What is the purpose of Boyce-Codd Normal Form (BCNF)?
+    a)  To eliminate redundant data.
+    b)  To eliminate transitive dependencies.
+    c)  To eliminate all redundancy and anomalies.
+    d)  To eliminate redundant functional dependencies.
+
+    **Correct Answer: d) To eliminate redundant functional dependencies.**
+
+
+8.  Which normal form is always a superset of 3NF?
+    a) 2NF
+    b) 1NF
+    c) BCNF
+    d) None of the above
+
+    **Correct Answer: c) BCNF**
+
+9.  In EER modeling, a specialization hierarchy represents:
+    a)  Many-to-many relationships
+    b)  One-to-one relationships
+    c)  "is-a" relationships
+    d)  Functional dependencies
+
+    **Correct Answer: c) "is-a" relationships**
+
+10. Which of the following is an inference rule for functional dependencies?
+    a)  Reflexivity
+    b)  Transitivity
+    c)  Augmentation
+    d)  All of the above
+
+    **Correct Answer: d) All of the above**
+
+11.  A relation is in 1NF if:
+    a)  It has no repeating groups.
+    b)  It has no transitive dependencies.
+    c)  It is in BCNF.
+    d)  It is in 3NF.
+
+    **Correct Answer: a) It has no repeating groups.**
+
+12. What is a lossless decomposition?
+    a) A decomposition that preserves all functional dependencies.
+    b) A decomposition that preserves all original data.
+    c) A decomposition where no data is lost during the process.
+    d) Both b and c.
+
+    **Correct Answer: d) Both b and c.**
+
+13.  The process of converting an ER diagram into a relational schema is called:
+    a)  Normalization
+    b)  Decomposition
+    c)  ER-to-Relational mapping
+    d)  Functional dependency analysis
+
+    **Correct Answer: c) ER-to-Relational mapping**
+
+14.  Which normal form eliminates redundant functional dependencies?
+    a) 1NF
+    b) 2NF
+    c) 3NF
+    d) BCNF
+
+    **Correct Answer: d) BCNF**
+
+15.  A relation is in 2NF if it is in 1NF and:
+    a)  It has no transitive dependencies.
+    b)  It has no partial dependencies.
+    c)  It is in BCNF.
+    d)  It has no redundant data.
+
+    **Correct Answer: b) It has no partial dependencies.**

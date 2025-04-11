@@ -1,0 +1,48 @@
+**Internal Assessment Question Paper**
+
+**Part A – 2 Mark Questions (Q1 to Q10)**
+
+1. Define the term "relation" in the context of relational databases.  What are its key characteristics?
+
+2. Briefly explain the difference between a primary key and a foreign key.
+
+3. What is normalization and why is it important in database design?
+
+4.  Explain the concept of data integrity and list two common ways to enforce it.
+
+5. What is the purpose of an index in a database?  Give one example of when an index would be beneficial.
+
+6. Distinguish between DELETE and TRUNCATE commands in SQL.
+
+7.  Explain the concept of ACID properties in database transactions.
+
+8. Briefly describe the difference between a clustered and a non-clustered index.
+
+9.  What is a view in a database system?  State one advantage of using views.
+
+10. Explain the concept of database concurrency and the challenges it presents.
+
+
+**Part B – 16 Mark Questions (Q11 & Q12)**
+
+**Q11.  Answer either (a) or (b):**
+
+(a)  Explain the different types of database relationships (one-to-one, one-to-many, many-to-many) with suitable examples.  Illustrate how these relationships are implemented in a relational database using ER diagrams and SQL statements.
+
+(b)  Discuss the various types of database normalization forms (at least up to 3NF).  Explain the purpose of each form and provide examples of anomalies that can be avoided by achieving these forms.
+
+
+**Q12. Answer either (a) or (b):**
+
+(a)  Describe the different types of SQL joins (INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN).  Provide examples of SQL queries demonstrating the use of each join type and explain when each type is most appropriate.
+
+(b)  Explain the concept of transactions in a database. Discuss how transactions ensure data integrity and consistency, particularly in a multi-user environment.  Explain the role of concurrency control mechanisms.
+
+
+**Part C – 8 Mark Question (Q13)**
+
+**Answer either (a) or (b):**
+
+(a)  Explain the different types of database recovery techniques. Discuss their advantages and disadvantages, and provide scenarios where each technique would be most suitable.
+
+(b)  Describe different types of database security threats and discuss the measures that can be implemented to protect database systems from these threats.  Include examples of security mechanisms.
