@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 # Configure Gemini API Key
-GEMINI_API_KEY = "AIzaSyC28fVBwe3qhRnluIT4x2mLhElSqexQUC8"
+GEMINI_API_KEY = "Your API Key"
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Function to generate MCQs
